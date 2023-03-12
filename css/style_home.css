@@ -1,0 +1,74 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100%;
+}
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("/img/bgforest.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: 30%;
+    background-position-x: center;
+}
+
+header{
+    padding: 0.5rem;
+    border-bottom: 2px solid black;
+}
+
+ul{
+    text-align: right;
+}
+
+li{
+    padding-left: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: inline;
+}
+
+a, a:visited{
+    padding:auto;
+    text-decoration: none;
+    color: #001eff;     
+}
+
+a:hover, a:focus{
+    color: #0055ff;
+    text-decoration:underline;
+    background-color: #00000015;
+}
+
+figure{
+    text-align: center;
+}
+
+img{
+    margin-top: 15%;
+    width:15%;
+    min-width: 144px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+h1,p{
+    color: rgb(242, 255, 0);
+    text-align: center;
+    background-color: #00000040;
+    margin: 0% auto;
+}
+
+p{
+    font-size: 1.5rem;
+}
+
+abbr{
+    text-decoration: none;
+}
+
+abbr:hover{
+    text-decoration: underline dotted;
+}

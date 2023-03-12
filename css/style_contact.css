@@ -1,0 +1,65 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100%;
+}
+
+body{
+    color: yellow;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("/img/bgforest.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: 30%;
+    background-position-x: center;
+}
+
+header{
+    padding: 0.5rem;
+    border-bottom: 2px solid black;
+}
+
+header ul{
+    text-align: right;
+}
+
+header li{
+    padding-left: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: inline;
+}
+
+header a, header a:visited{
+    padding:auto;
+    text-decoration: none;
+    color: #001eff;     
+}
+
+header a:hover, header a:focus{
+    color: #0055ff;
+    text-decoration:underline;
+    background-color: #00000015;
+}
+
+.contact ul{
+    text-align: center;
+}
+
+.contact li{
+    display: inline;
+}
+
+.form{
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: rgba(0, 0, 0, 0.152);
+}
+
+button{
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+}

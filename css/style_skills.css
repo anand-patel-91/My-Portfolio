@@ -1,0 +1,94 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    min-height: 100%;
+}
+
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(242, 255, 0);
+    background-image: url("/img/bgforest.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y: 30%;
+    background-position-x: center;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+img{
+    background-color: #fff;
+}
+
+header{
+    padding: 0.5rem;
+    border-bottom: 2px solid black;
+}
+
+header ul{
+    text-align: right;
+}
+
+header li{
+    padding-left: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    display: inline;
+}
+
+.languages ul li{
+    line-height: 3rem;
+    font-size: 1.5rem;
+}
+
+.competitive ul li{
+    list-style-type: none;
+    line-height: 3rem;
+    font-size: 1.5rem;
+} 
+
+a, a:visited{
+    color: rgb(242, 255, 0);
+    padding:auto;
+    text-decoration: none;
+}
+
+a:hover, a:focus{
+    color: rgba(242, 255, 0, 0.804);
+    text-decoration:underline;
+    background-color: #00000015;
+}
+
+a:active{
+    color: rgb(255, 153, 0);
+}
+
+header a, header a:visited{
+    color: #001eff;     
+}
+
+header a:hover, header a:focus{
+    color: #0055ff;
+}
+
+header a:active{
+    color:rgb(106, 0, 255);
+}
+
+.languages{
+    max-width: 50%;
+    display: inline;
+    float: left;
+    padding-left: 15%;
+}
+
+.competitive{
+    max-width: 50%;
+    display: inline;
+    float: right;
+    padding-right: 15%;
+}
