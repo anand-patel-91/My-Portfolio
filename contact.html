@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style_contact.css">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <title>Contact Me</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>
+                <a href="/index.html">Home</a>
+            </li>
+            <li>
+                <a href="/about.html">About Me</a>
+            </li>
+            <li>
+                <a href="/skills.html">Skills</a>
+            </li>
+        </ul>
+    </header>
+    <h1>
+        Contact Me
+    </h1>
+    <article class="form">
+        <form action="https://httpbin.org/get" method="get">
+            <h2>
+                Contact Form
+            </h2>
+            <fieldset>
+                <legend>
+                    Send Me A Message
+                </legend>
+                <p>
+                    <label for="name">Name: </label>
+                    <input type="text" name="name" id="name" placeholder="your name" autocomplete="on" required
+                        autofocus>
+                </p>
+                <p>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="your email" autocomplete="on" required>
+                </p>
+                <p>
+                    <label for="message">Your Message: </label>
+                    <br>
+                    <textarea name="message" id="message" cols="30" rows="5" placeholder="Type your message here"></textarea>
+                </p>
+            </fieldset>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </article>
+    <section class="contact">
+        <ul>
+            <li>
+                <a href="mailto: patel91a@gmail.com" target="_blank"><img src="/img/gmail.png" alt="Gmail" title="Gmail" height="70px"></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/anand_patel_91/" target="_blank"><img src="/img/instagram.png" alt="Instagram" title="Instagram" height="70px"></a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/anand-patel-7a0280226/" target="_blank"><img src="/img/linkedin.png" alt="Linkedin" title="Linkedin" height="70px"></a>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
