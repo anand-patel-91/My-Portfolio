@@ -88,11 +88,10 @@ header a:active{
 }
 
 .competitive{
-    padding: 0.5rem;
     background-color: #00000015;
     width: 50%;
     float: right;
-    padding: 5%;
+    padding: 0% 5%;
 }
 
 span{
