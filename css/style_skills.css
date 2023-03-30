@@ -81,14 +81,15 @@ header a:active{
 
 .languages{
     max-width: 50%;
-    display: inline;
+    display: inline-block;
     float: left;
-    padding-left: 15%;
+    padding: 5%;
+    border-right: solid black;
 }
 
 .competitive{
     max-width: 50%;
-    display: inline;
+    display: inline-block;
     float: right;
-    padding-right: 15%;
+    padding: 5%;
 }
