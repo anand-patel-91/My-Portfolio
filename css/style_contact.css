@@ -43,6 +43,11 @@ header a:hover, header a:focus{
     background-color: #00000015;
 }
 
+h1{
+    text-align: center;
+    margin: 5% auto;
+}
+
 .contact ul{
     text-align: center;
 }
@@ -66,4 +71,9 @@ button{
 
 img{
     border-radius: 15px;
+}
+
+span{
+    padding: 0.5rem;
+    background-color: #00000015;
 }

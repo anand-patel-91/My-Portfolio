@@ -53,7 +53,6 @@ header li{
 
 a, a:visited{
     color: rgb(242, 255, 0);
-    padding:auto;
     text-decoration: none;
 }
 
@@ -80,16 +79,23 @@ header a:active{
 }
 
 .languages{
-    max-width: 50%;
-    display: inline-block;
+    padding: 0.5rem;
+    background-color: #00000015;
+    width: 50%;
     float: left;
-    padding: 5%;
+    padding: auto 5%;
     border-right: solid black;
 }
 
 .competitive{
-    max-width: 50%;
-    display: inline-block;
+    padding: 0.5rem;
+    background-color: #00000015;
+    width: 50%;
     float: right;
     padding: 5%;
+}
+
+span{
+    padding: 0.5rem;
+    background-color: #00000015;
 }
