@@ -40,12 +40,7 @@ header li{
     display: inline;
 }
 
-.languages ul li{
-    line-height: 3rem;
-    font-size: 1.5rem;
-}
-
-.competitive ul li{
+ul li{
     list-style-type: none;
     line-height: 3rem;
     font-size: 1.5rem;
@@ -78,20 +73,22 @@ header a:active{
     color:rgb(106, 0, 255);
 }
 
+#content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    gap:20px
+}
+
 .languages{
-    padding: 0.5rem;
     background-color: #00000015;
-    width: 50%;
-    float: left;
-    padding: auto 5%;
-    border-right: solid black;
+    flex-shrink: 1;
+    
 }
 
 .competitive{
     background-color: #00000015;
-    width: 50%;
-    float: right;
-    padding: 0% 5%;
+    flex-shrink: 1;
 }
 
 span{

@@ -48,25 +48,29 @@ h1{
     margin: 5% auto;
 }
 
-.contact ul{
-    text-align: center;
-}
-
-.contact li{
-    display: inline;
+.contact {
+    display: flex;
+    justify-content:center;
+    gap:30px;
+    flex-shrink: 1;
 }
 
 .form{
     text-align: center;
     font-size: 1.2rem;
     background-color: rgba(0, 0, 0, 0.152);
+    max-width: 320px;
+    padding: 10px 20px;
+    margin: auto auto;
 }
 
 button{
     padding: 0.3rem;
     border-radius: 0.5rem;
-    background-color: #111;
+    background-color: #2b2929;
     color: yellow;
+    font-size: 1rem;
+    padding: 5px;
 }
 
 img{

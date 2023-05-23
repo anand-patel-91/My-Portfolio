@@ -71,19 +71,19 @@ abbr:hover{
     text-decoration: underline dotted;
 }
 
+#content {
+    display: flex;
+    justify-content:space-around;
+    align-items: flex-start;
+    gap: 20px;
+}
+
 .education{
-    padding: 0.5rem;
+    flex-shrink: 1;
     background-color: #00000015;
-    width: 50%;
-    float: left;
-    padding: 5%;
-    border-right: solid black;
 }
 
 .hobbies{
-    padding: 0.5rem;
+    flex-shrink: 1;
     background-color: #00000015;
-    width: 50%;
-    float: right;
-    padding: 5%;
 }
