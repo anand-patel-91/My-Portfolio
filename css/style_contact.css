@@ -81,3 +81,16 @@ span{
     padding: 0.5rem;
     background-color: #00000015;
 }
+
+input {
+    font-size: 1rem;
+    padding: 5px;
+}
+
+textarea {
+    margin-top: 10px;
+    font-size: 1rem;
+    padding: 5px;
+    max-width: 270px;
+    max-height: 140px;
+}
